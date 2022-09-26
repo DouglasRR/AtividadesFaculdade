@@ -23,7 +23,6 @@ if linha_matriz_a == linha_matriz_b and coluna_matriz_a == coluna_matriz_b:
         print(f"\nMatriz B - Dimensão ({linha_matriz_b}x{coluna_matriz_b})")
     for aux2 in range(linha_matriz_b):
         print(matriz_b[aux2])
-    #Condicional-------------------------------------------------------------------------
     if linha_matriz_a == linha_matriz_b and coluna_matriz_a == coluna_matriz_b :
         linha_matriz_c = (linha_matriz_a + linha_matriz_b) // 2
         coluna_matriz_c = (coluna_matriz_a + coluna_matriz_b) // 2
