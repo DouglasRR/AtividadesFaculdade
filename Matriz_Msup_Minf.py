@@ -1,7 +1,8 @@
+# Criando a matriz quadrática
 tamanho_matriz = int(input("Defina o tamanho da matriz: "))
 matriz_a = []
 
-
+# Adicionando elementos na Matriz
 for contador_coluna in range(tamanho_matriz):
     linha = []
     for contador_linha in range(tamanho_matriz):
@@ -12,7 +13,7 @@ print("\nMATRIZ DIGITADA PELO USUÁRIO:")
 for contador_print in range(tamanho_matriz):
   print(matriz_a[contador_print])
 
-
+# Criando uma 2ª matriz para receber a matriz superior
 print("MATRIZ SUPERIOR: ")
 matriz_b = []
 for aux1 in range(tamanho_matriz):
@@ -26,7 +27,7 @@ for aux1 in range(tamanho_matriz):
 for cont_aux1 in range(tamanho_matriz):
   print(matriz_b[cont_aux1])
 
-
+# Criando uma 2ª matriz para receber a matriz inferior
 print("MATRIZ INFERIOR: ")
 matriz_c = []
 for aux3 in range(tamanho_matriz):
