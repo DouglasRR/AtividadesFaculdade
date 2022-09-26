@@ -1,8 +1,3 @@
-'''
-ELAINE CESAR CAMILO DE OLIVEIRA REGHINI
-DOUGLAS RIOS RAMOS
-'''
-
 linha_matriz_a = int(input("Digite a quantidade de linhas da matriz A: "))
 coluna_matriz_a = int(input("Digite a quantidade de elementos de cada linha A: "))
 linha_matriz_b = int(input("\nDigite a quantidade de linhas da matriz B: "))
@@ -41,19 +36,8 @@ if coluna_matriz_a == linha_matriz_b:
             auxc2 = 0
             for auxc2 in range(auxc1):
                 elemento_c += matriz_a[contador_linha_c][auxc2] * matriz_b[auxc2][contador_coluna_c]
-
             linha_c.append(elemento_c)
         matriz_c.append(linha_c)
-
-
-
-
-
-
-
-
-
-
     print(f"\n(Multiplicação) Matriz C - ({linha_matriz_c}x{coluna_matriz_c})")
     for aux3 in range(linha_matriz_c):
         print(matriz_c[aux3])

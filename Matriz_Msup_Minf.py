@@ -1,4 +1,3 @@
-from random import randint
 tamanho_matriz = int(input("Defina o tamanho da matriz: "))
 matriz_a = []
 
